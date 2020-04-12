@@ -1,0 +1,455 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.all {
+    display: flex;
+}
+
+.left {
+    background-color: #FFFFFF;
+    width: 240px;
+    max-height: 100%;
+    margin-right: 10px;
+    margin-left: 160px;
+    overflow-y: auto;
+    position: fixed;
+}
+
+@font-face {
+    font-family: "montserrat";
+    src: url("D:/HTML/Template2/Montserrat/Montserrat-Regular.ttf");
+}
+
+@font-face {
+    font-family: "montserrat_bold";
+    src: url("D:/HTML/Template2/Montserrat/Montserrat-Bold.ttf");
+}
+
+@font-face {
+    font-family: "roboto";
+    src: url("D:/HTML/Template2/Roboto/Roboto-Regular.ttf");
+}
+
+.left > span {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 90px;
+    font-family: "montserrat";
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    padding-left: 15px;
+}
+
+.left .second > p{
+    display: block;
+    font-family: "roboto";
+    font-size: 18px;
+    color: rgb(114, 110, 110);
+    font-weight: bold;
+    height: 45px;
+    line-height: 45px;
+    padding-left: 15px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.left .second > label {
+    display: block;
+    font-family: "roboto";
+    font-size: 18px;
+    color: rgb(114, 110, 110);
+    font-weight: bold;
+    height: 45px;
+    line-height: 45px;
+    padding-left: 15px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.left .second input {
+    display: none;
+}
+
+.cap2 p {
+    font-family: "roboto";
+    font-size: 15px;
+    color: rgb(114, 110, 110);
+    font-weight: bold;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 20px 0 25px;
+    padding-left: 15px;
+}
+
+#skiny {
+    margin-top: 10px;
+    background-color: rgb(241, 237, 237);
+}
+
+.cap2 {
+    display: none; 
+}
+
+.left .second input:checked + .cap2 {
+    display: block;
+}
+
+.left .second p:hover {
+    background-color: #CCCCCC;
+    color: black;
+    cursor: pointer;
+}
+
+.left .second label:hover {
+    background-color: #CCCCCC;
+    color: black;
+    cursor: pointer;
+}
+
+.left .third {
+    margin-top: 85px;
+}
+
+.left .third span {
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 15px;
+    font-family: "roboto";
+    font-size: 15px;
+    margin-top: -15px;
+}
+
+.left .third span:hover {
+    background-color: #CCCCCC;
+    cursor: pointer;
+}
+
+.right {
+    margin-left: 410px;
+    width: 920px;
+}
+
+.right .first span {
+    display: inline-block;
+    margin-top: 20px;
+    font-family: "montserrat";
+    font-size: 24px;
+    
+}
+
+#search {
+    float: right;
+    margin-top: 30px;
+}
+
+#cart {
+    float: right;
+    margin-top: 30px;
+    margin-right: 25px;
+}
+
+.right .second {
+    background-image: url("https://www.w3schools.com/w3images/jeans.jpg");
+    height: 610px;
+    background-size: 920px 610px;
+    margin-top: 25px;
+}
+
+#arrivals {
+    display: block;
+    font-family: "montserrat";
+    font-size: 64px;
+    color: white;
+    padding: 0;
+    padding-top: 40px;
+    padding-left: 33px;
+}
+
+
+#collection {
+    display: block;
+    font-family: "montserrat";
+    color: white;
+    font-size: 36px;
+    padding-top: 25px;
+    padding-left: 33px;
+}
+
+#shop {
+    display: block;
+    font-family: "montserrat";
+    color: white;
+    background-color: black;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-left: 33px;
+    width: 160px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+
+#send:hover {
+    background-color: #CCCCCC;
+    color: black;
+    cursor: pointer;
+}
+
+#shop:hover{
+    background-color: #CCCCCC;
+    color: black;
+    cursor: pointer;
+}
+
+#sub:hover {
+    background-color: #CCCCCC;
+    color: black;
+    cursor: pointer;
+}
+
+.third > span {
+    display: block;
+    font-family: "montserrat";
+    font-size: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;;
+}
+
+.hang1, .hang2 {
+    display: flex;
+}
+
+.items {
+    margin-bottom: 20px;
+    margin-right: 33px;
+}
+.items img {
+    width: 205px;
+    height: 255px;
+}
+
+.items  span {
+    font-family: "montserrat";
+    font-size: 15px;
+}
+
+.items > span {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.items > span span {
+    font-weight: bold;
+}
+
+.new {
+    position: absolute;
+    z-index: 10;
+    background-color: black;
+    color: white;
+    font-family: "montserrat";
+    font-size: 15px;
+    height: 20px;
+    line-height: 20px;
+    width: 50px;
+    text-align: center;
+    margin-top: 0;
+}
+
+.buynow {
+    position: absolute;
+    z-index: 10;
+    background-color: black;
+    color: white;
+    font-family: "montserrat";
+    font-size: 15px;
+    height: 40px;
+    line-height: 40px;
+    width: 120px;
+    text-align: center;
+}
+
+#buy1 {
+    top: 830px;
+    left: 690px;
+}
+
+#buy2 {
+    top: 1160px;
+    left: 920px;
+}
+
+
+.fourth {
+    display: block;
+    margin-top: 20px;
+    background-color: black;
+    height: 290px;
+    margin-left: -10px;
+}
+
+.fourth h1 {
+    font-family: "montserrat";
+    color: white;
+    font-size: 36px;
+    padding-top: 55px;
+    padding-left: 15px;
+}
+
+.fourth p {
+    font-family: "montserrat";
+    color: white;
+    font-size: 15px;
+    padding-left: 15px;
+    margin-top: 25px;
+}
+
+#email {
+    background-color: white;
+    height: 35px;
+    width: 885px;
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-right: 20px;
+    font-family: "montserrat";
+    color: grey;
+    font-size: 15px;
+    line-height: 40px;
+    padding-left: 12px;
+}
+
+#sub {
+    display: block;
+    background-color: #E81123;
+    height: 40px;
+    width: 110px;
+    margin-top: 15px;
+    margin-left: 15px;
+    font-family: "montserrat";
+    color: white;
+    font-size: 15px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.fifth {
+    display: flex;
+    background-color: #F1F1F1;
+    height: 450px;
+    margin-left: -10px;
+}
+
+.column1, .column2, .column3 {
+    padding-top: 60px;
+}
+
+.contact {
+    font-family: "montserrat";
+    font-size: 20px;
+}
+
+.column1 .contact {
+    padding-left: 100px;
+}
+
+.questions {
+    display: block;
+    background-color: white;
+    width: 285px;
+    height: 35px;
+    font-family: "montserrat";
+    font-size: 12px;
+    color: grey;
+    line-height: 35px;
+    padding-left: 10px;
+    margin-top: 12px;
+    margin-left: 15px;
+    border: solid #CCCCCC 1px;
+}
+
+.column1 .about {
+    margin-left: 75px;
+    font-family: "montserrat";
+    font-size: 12px;
+}
+
+#send {
+    display: block;
+    background-color: black;
+    width: 295px;
+    height: 35px;
+    font-family: "montserrat";
+    font-size: 12px;
+    color: white;
+    line-height: 35px;
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 15px;
+    border: solid #CCCCCC 1px;
+}
+
+.column2, .column3 {
+    margin-left: 130px;
+}
+
+.column2 .about {
+    font-family: "montserrat";
+    font-size: 12px;
+    text-decoration: underline;
+    text-align: center;
+    margin-bottom: 13px;
+}
+
+.about:hover {
+    cursor: pointer;
+}
+
+.company {
+    display: inline-block;
+    font-family: "montserrat";
+    font-size: 12px;
+    margin-bottom: 15px;
+    margin-left: 5px;
+}
+
+#accept {
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+.social {
+    margin-top: 20px;
+}
+
+.social i:hover {
+    background-color: #CCCCCC;
+}
+
+.footer {
+    height: 80px;
+    background-color: black;
+    margin-top: -18px;
+    margin-left: -10px;
+}
+
+.footer p {
+    line-height: 80px;
+    color: white;
+    text-align: center;
+    font-family: "montserrat";
+    font-size: 15px;
+}
+
+.footer span {
+    display: inline-block;
+    text-decoration: underline;
+}
+
+.footer span:hover{
+    color: #CCCCCC;
+    cursor: pointer;
+}
